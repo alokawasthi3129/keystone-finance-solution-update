@@ -36,7 +36,14 @@ export default function HeroSection() {
             </span>{" "}
            
           </h1>
-
+ {/*'md:hidden' ensures this image only displays on mobile layouts */}
+        <div className="block md:hidden float-right w-[60%] ml-4 mb-2">
+            <img 
+                src="images/keystone_1.png" 
+                alt="Keystone Financial" 
+                className="w-full h-auto object-cover rounded-lg shadow-sm"
+            />
+        </div>
           {/* Decorative Line */}
           <div className="w-24 h-1 bg-gradient-to-r from-[#004aad] to-[#0a346b] mb-8 animate-fade-in-up animation-delay-200"></div>
 
